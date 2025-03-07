@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Abismo Secreto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <img src="abismo-secreto.jpg" alt="El Abismo Secreto">
+    </header>
+
+    <section class="info">
+        <h1>El abismo secreto</h1>
+        <p><strong>Fecha de estreno:</strong> 14 de febrero de 2025</p>
+        <p>Mandan a dos operativos de élite (Anya Taylor-Joy y Miles Teller) a vigilar lados opuestos de un misterioso abismo y allí intiman desde la distancia, pero deberán aunar fuerzas para sobrevivir al mal que esconde el abismo.</p>
+    </section>
+
+    <section class="acciones">
+        <button onclick="verTrailer()">Ver Tráiler</button>
+        <button onclick="mostrarFormulario()">Agregar Reseña</button>
+    </section>
+
+    <div id="formularioResena" class="modal">
+        <div class="modal-contenido">
+            <span class="cerrar" onclick="cerrarFormulario()">&times;</span>
+            <h3>Escribe tu reseña</h3>
+            <textarea id="resenaTexto" placeholder="Escribe aquí tu reseña..."></textarea>
+            <button onclick="guardarResena()">Guardar</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
