@@ -24,11 +24,7 @@ const App = () => {
     <Container className="d-flex justify-content-center align-items-center" style={{ minHeight: "100vh" }}>
       <Card style={{ width: "1000rem" }} className="shadow-lg">
         <Card.Body className="p-4">
-          <Card className="">
-            <Card.Title>Formulario para regiatro de usuarios </Card.Title>
-          </Card>
-
-
+          <Card.Title>Formulario para regiatro de usuarios </Card.Title>
           <Form>
             <Form.Group>
               <Form.Label>Nombre</Form.Label>
