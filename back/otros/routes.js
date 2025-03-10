@@ -24,4 +24,4 @@ router.get("/movies/get/:id", getMovie) // Ver una peliculas
 router.put("/movies/update/:id", updateMovie) // Actualiza una pelicula
 router.delete("/movies/delete/:id", deleteMovie) // Eliminar una pelicula
 
-export default router
+export default router 
