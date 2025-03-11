@@ -1,4 +1,4 @@
-import User from "../models/users_model.js" 
+import User from "../models/users_model.js"
 
 
 
