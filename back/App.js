@@ -1,11 +1,14 @@
 import express from "express" 
 import mongoose from "mongoose" 
 import router from "./otros/routes.js" 
+import { configDotenv } from "dotenv"
+
+configDotenv()
 
 const app = express() 
 app.use(express.json()) 
 
-mongoose.connect("mongodb://localhost:27017/Josue")
+mongoose.connect(process.env.URL)
   .then(() => console.log("Conexion exitosa a MongoDB"))
   .catch((error) => console.error("Error conectando a MongoDB:", error)) 
 
