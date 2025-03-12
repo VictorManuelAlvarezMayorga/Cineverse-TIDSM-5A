@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./App.css";
 import moviesData from "./moviesData";
-import RegisterForm from "./RegisterForm";
+
 
 const MovieCategory = ({ title, movies }) => {
   return (
